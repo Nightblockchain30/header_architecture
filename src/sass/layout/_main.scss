@@ -1,0 +1,154 @@
+.main__container {
+    @include margins();
+    margin-right: 0;
+
+    &-hero {
+        max-width: 50%;
+
+        &-h1 {
+            font-size: 82px;
+            font-family: $second-font;
+            font-weight: 300;
+            color: $black;
+            line-height: 96px;
+            margin-bottom: 32px;
+        }
+
+        &-p {
+            max-width: 85%;
+            font-size: 28px;
+            color: $grey;
+            line-height: 40px;
+            margin-bottom: 56px;
+        }
+
+        &-button-flex {
+            display: flex;
+
+            &-left {
+                background-color: $black;
+                display: flex;
+                column-gap: 8px;
+                align-items: center;
+                padding: 14px 22.5px;
+                padding-right: 18px;
+
+                a {
+                    color: white;
+                    font-weight: 500;
+                }
+
+                img {
+                    // padding-right: 22.5px;
+                }
+
+                &:hover {
+                    background-color: $grey;
+                    cursor: pointer;
+                }
+
+                &:active {
+                    background-color: $black;
+                    cursor: pointer;
+                }
+            }
+
+            &-right {
+                display: flex;
+                column-gap: 8px;
+                align-items: center;
+
+                a {
+                    margin-left: 32px;
+                    color: $black;
+                }
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    &__flex__botton {
+        display: flex;
+        column-gap: 519px;
+
+        &-numbers {
+            display: flex;
+            margin-top: 218px;
+            column-gap: 96px;
+
+            &-div {
+                display: flex;
+                flex-direction: column;
+                row-gap: 8px;
+
+                p.title {
+                    color: $black;
+                    font-size: 64px;
+                    font-weight: 600;
+
+                    &:hover {
+                        transform: scale(1.2);
+                        cursor: pointer;
+                    }
+                }
+
+                p.description {
+                    color: $grey;
+                    font-size: 18px;
+                    max-width: 25px;
+
+                }
+
+            }
+        }
+
+        &-services {
+            padding: 32px 32px 0px 32px;
+            min-width: 426px;
+            min-height: 330px;
+            background-color: white;
+
+            p {
+                font-size: 18px;
+            }
+
+            &-index {
+                display: flex;
+                align-items: center;
+                column-gap: 28px;
+                padding: 24px;
+
+                &:hover {
+                    border-bottom: 3px solid $black;
+                    cursor: pointer;
+                }
+
+                :nth-child(1) {
+                    font-size: 18px;
+                    color: $grey;
+                }
+
+                :nth-child(2) {
+                    font-size: 24px;
+                    color: $black;
+                    font-weight: 500;
+                }
+
+                :nth-child(3) {
+                    margin-left: auto;
+                }
+            }
+
+            .index2 {
+                border-top: 1px solid $grey;
+            }
+
+            .index3 {
+                border-top: 1px solid $grey;
+            }
+        }
+    }
+}
