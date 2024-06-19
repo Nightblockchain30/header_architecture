@@ -106,7 +106,6 @@ body {
 .main__container__flex__botton {
   display: flex;
   column-gap: 550px;
-  margin-top: 110px;
 }
 .main__container__flex__botton-numbers {
   display: flex;
@@ -134,10 +133,11 @@ body {
   line-height: 30px;
 }
 .main__container__flex__botton-services {
-  padding: 32px 32px 0px 32px;
+  padding: 32px;
   min-width: 426px;
   min-height: 330px;
   background-color: white;
+  margin-top: 60px;
 }
 .main__container__flex__botton-services p {
   font-size: 18px;
@@ -183,10 +183,10 @@ body {
 .main__container__div__decoration-2 {
   background-color: #F3F1ED;
   width: 405px;
-  height: 161px;
+  height: 215px;
   position: absolute;
   z-index: -1;
-  bottom: -70px;
+  bottom: -15px;
   left: 606px;
   opacity: 0.5;
 }/*# sourceMappingURL=style.css.map */
