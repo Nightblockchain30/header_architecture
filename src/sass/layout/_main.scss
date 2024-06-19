@@ -1,6 +1,14 @@
 .main__container {
     @include margins();
     margin-right: 0;
+    margin-bottom: 40px;
+    // background-image: url("../img/img-left.png"),
+    //     url("../img/img-right.png");
+    // background-repeat: no-repeat;
+    // background-size: contain;
+
+    background: url("../img/img-left.png")600px 0px no-repeat,
+        url("../img/img-right.png") 1125px 0px no-repeat;
 
     &-hero {
         max-width: 50%;
@@ -72,7 +80,8 @@
 
     &__flex__botton {
         display: flex;
-        column-gap: 519px;
+        column-gap: 550px;
+        margin-top: 110px;
 
         &-numbers {
             display: flex;
@@ -87,7 +96,7 @@
                 p.title {
                     color: $black;
                     font-size: 64px;
-                    font-weight: 600;
+                    font-weight: 500;
 
                     &:hover {
                         transform: scale(1.2);

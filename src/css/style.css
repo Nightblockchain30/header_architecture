@@ -18,7 +18,7 @@
 .header__container .header__container-nav-ul {
   display: flex;
   justify-content: space-between;
-  column-gap: 56px;
+  column-gap: 68px;
   list-style: none;
 }
 .header__container .header__container-nav-ul li a {
@@ -36,7 +36,7 @@
 
 body {
   background-image: url("../img/img-background.png");
-  background-position: right top;
+  background-position: 1011px top;
   background-repeat: no-repeat;
 }
 
@@ -44,6 +44,8 @@ body {
   margin-left: 160px;
   margin-right: 160px;
   margin-right: 0;
+  margin-bottom: 40px;
+  background: url("../img/img-left.png") 600px 0px no-repeat, url("../img/img-right.png") 1125px 0px no-repeat;
 }
 .main__container-hero {
   max-width: 50%;
@@ -100,7 +102,8 @@ body {
 }
 .main__container__flex__botton {
   display: flex;
-  column-gap: 519px;
+  column-gap: 550px;
+  margin-top: 110px;
 }
 .main__container__flex__botton-numbers {
   display: flex;
@@ -115,7 +118,7 @@ body {
 .main__container__flex__botton-numbers-div p.title {
   color: #424241;
   font-size: 64px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .main__container__flex__botton-numbers-div p.title:hover {
   transform: scale(1.2);
